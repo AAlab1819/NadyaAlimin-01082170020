@@ -12,7 +12,6 @@ In order to count how many crystals does Grisha need, I use these calculations:
 If the result of the yellow/blue is negative ( < 0 ), then the number of crystal needed is equal to zero.  
 
 We calculated the required crystal needed separatelly and sum to get the number of crystals that Grisha should acquire.  
-(note : I use `long long` to declare variables because Codeforces tests the program using really long numbers, so that the operating system can allocates memory.
 
 [submission](http://codeforces.com/contest/912/submission/42490294)
 
