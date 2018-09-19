@@ -2,7 +2,7 @@
 
 The problem given is to find the minimum possible radius to cover all of the street. In order to do this, we take the distance between to lanterns and divide it by 2 to get the radius.
 
-I used `fixed` as float notation, also use `cout.precision` to format floating-point values.
+I used `fixed` as float notation, also use `set.precision` to format floating-point values.
 
 Complexity:  
 Worst Case: O(nlogn)  
