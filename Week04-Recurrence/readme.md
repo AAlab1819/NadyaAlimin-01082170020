@@ -1,6 +1,6 @@
 # 598D - Igor in The Museum  
 
-The problem is to find out the maximum number of pictures that Igor can see in the museum. To solve this problem, we shall use algorithm to search where Igor can walk to and then add the picture that he can view. Then we store for that certain group the answer will always be the same. After we store it, we can directly access the answer depending on its x and y starting place.  
+The problem is to find out the maximum number of pictures that Igor can see in the museum. To solve this problem, we shall use algorithm to search where Igor can walk to and then add the picture that he can view. Then we store for that certain group the answer will always be the same. In this case, I use `if else` conditions. After we store it, we can directly access the answer depending on its x and y starting place.  
 
 The complexity for this problm is O(nm)  
 
