@@ -8,7 +8,7 @@ Worse time complexity: O(nlogn)
 
 [submission](http://codeforces.com/contest/115/submission/43731059)  
 
-# 4C - Registration system  
+# 4C - Registration System  
 
 The problem is the same as we are saving our Ms. Word file without an exact name, the first file will be `Doc` then next will be `Doc1` amnd so on. There are several names of users who want to register.  
 The system responses to the requests: OK in case of successful registration, or a prompt with a new name, if the requested name is already taken.  
@@ -18,7 +18,7 @@ Worse time complexity: O(nlogn)
 
 [submission](http://codeforces.com/contest/4/submission/43732378)  
 
-# 913B - Christmas spruce  
+# 913B - Christmas Spruce  
 
 This problem is to find out whether a given rooted tree is a spruce or not. If a vertex has children, make sure it has at least 3 children that are leaves (have no children). If the condition is not fulfilled, then the tree is not a spruce.  
 My way to solve this solution is by using `struct` and use `memset` function.  
