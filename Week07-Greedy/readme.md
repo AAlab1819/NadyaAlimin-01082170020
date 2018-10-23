@@ -8,7 +8,7 @@ Worst case: O(n).
 
 # 978B - File Name  
 
-[submission]  
+[submission](http://codeforces.com/contest/978/submission/44721659)  
 
 # 731B - Coupons and Discounts  
 
