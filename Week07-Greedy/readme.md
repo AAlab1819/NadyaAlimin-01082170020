@@ -16,4 +16,8 @@ Worst Case: O(n).
 
 # 731B - Coupons and Discounts  
 
-[submission]
+There is a sequence of how many teams that will be present on the `i`-th day. The problem is saying that Sereja wants to order pizza for each team of ICPC by using `Coupons` and `Discounts`. the Discount works if one buys two pizza at one day, while the Coupon allows to buy one pizza during two consecutive days. To solve this problem, go through the array and check whether the number of the element is even or odd. If it is even, then Sereja can use `Discounts` to buy the pizza. Meanwhile, if the elements is odd, Sereja will use the Coupon to order the pizza and he needs to order again for the day after (decrement the next element by 1).  
+If Sereja use a coupon and no teams are attending the session the day after, then it is impossible. For the last element, check if it is odd or even, Sereja can use the Discount because no additional session, while if it is odd, Sereja cannot use the coupon nor the discount.  
+Worst Case: O(n).
+
+[submission](http://codeforces.com/contest/731/submission/44756013)
