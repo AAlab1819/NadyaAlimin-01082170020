@@ -9,4 +9,10 @@ Complexity Worst Case: O(nlogn)
 
 # 931C - Party Lemonade  
 
+The problem given is to find the cheapest cost to fullfill the lemonade liters needed. Where each bottle have different volume and cost, the volume of the i-th bottle will be 2i-1 liters. You can buy more than a bottle with the same volume. You can have more lemonade in liters than the required number. 
 
+The solution is first to store the cost for each type of bottle. Then, we will check if we can buy 2 bottle of smaller type of bottle with cheaper price rather than 1 bottle with higher price. If the bigger bottle cost higher, then we will store that type of bottle with the price of 2 smaller bottle.
+
+Then we loop all the bottles from the highest liters down to the smallest liters. Then we will see is it cheaper to buy 2 of the biggest bottle if it is still left to fullfill or 1 bottle and other bottle to fullfill the need of the lemonade.   
+
+Complexity Worst Case: O(n)
