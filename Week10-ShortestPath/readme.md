@@ -2,7 +2,7 @@
 
 Complexity:  
 
-[submission](google.com)  
+[submission](http://codeforces.com/contest/20/submission/45711351)  
 
 # 601A - The Two Routes
 
