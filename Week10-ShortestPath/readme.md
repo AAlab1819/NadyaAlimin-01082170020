@@ -29,6 +29,8 @@ Complexity: O(nlogn)
 
 # 601A - The Two Routes
 
+We've been asked to find the smallest possible time of the later vehicle's arrival in town *n* from town 1. This problem is can be directly solved by using Breadth First Search Algorithm which will use a queue to store the node and mark it as *visited* until all railways are marked. The queue follows the First In First Out (FIFO) so we can find out the shortest path and the minimum number of hours needed for both vehicle to arrive. <br>
+
 Complexity: O(n^2)
 
 [submission](https://codeforces.com/contest/601/submission/45630831)
